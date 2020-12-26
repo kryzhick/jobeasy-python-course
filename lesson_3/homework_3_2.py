@@ -43,10 +43,10 @@ print(result_2)
 # If first_name or last_name are shorter than 6 characters, save a full name (with a space between) to result_3
 # Else save first_name to result_3 as many times as length of last_name value
 
-first_name = "Aleksandr"
+first_name = "Alek"
 last_name = "Kryzhanovskii"
 if len(first_name) < 6 or len(last_name) < 6:
-     result_3 = first_name + " " + last_name
+     result_3 = f'{first_name} {last_name}'
 else:
     result_3 = first_name * len(last_name)
 print(result_3)
